@@ -3,17 +3,12 @@
 
 int main(){
 	
-	float x, n,s;
-	
-	printf("Nhap x: ");
-	scanf("%f", &x);
+	float n;
+
 	printf("Nhap n: ");
 	scanf("%f", &n);
 	
-	n=1/n;
-	s=pow(x,n);
-	
-	printf("can bac %0.2 cua %0.2f la %0.2f", 1/n,x,s);
+	printf("can bac 2 cua n la: %0.2f", sqrt(n));
 	
 	return 0;
 
